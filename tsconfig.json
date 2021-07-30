@@ -1,0 +1,76 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["es2019"],
+    "allowJs": true,
+    // "checkJs": true, */
+    "jsx": "react-native",
+    // "declaration": true,
+    // "sourceMap": true,
+    // "outFile": "./",
+    // "outDir": "./",
+    // "rootDir": "./",
+    // "removeComments": true,
+    "noEmit": true,
+    // "incremental": true,
+    // "importHelpers": true,
+    // "downlevelIteration": true,
+    "isolatedModules": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true /* Enable all strict type-checking options. */,
+    // "noImplicitAny": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    // "strictPropertyInitialization": true,
+    // "noImplicitThis": true,
+    // "alwaysStrict": true,
+
+    /* Additional Checks */
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noImplicitReturns": true,
+    // "noFallthroughCasesInSwitch": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    /* Absolute Import */
+    "baseUrl": ".",
+    "paths": {
+      "~images/*": ["./src/asset/images/*"],
+      "~icons/*": ["./src/asset/icons/*"],
+      "~fonts/*": ["./src/asset/fonts/*"],
+      "~components/*": ["./src/components/*"],
+      "~constants/*": ["./src/constants/*"],
+      "~hooks/*": ["./src/hooks/*"],
+      "~navigators/*": ["./src/navigators/*"],
+      "~screens/*": ["./src/screens/*"],
+      "~services/*": ["./src/services/*"],
+      "~reducers/*": ["./src/stores/reducers/*"],
+      "~store/*": ["./src/stores/store/*"],
+      "~styles/*": ["./src/styles/*"],
+      "~theme/*": ["./src/theme/*"],
+      "~utils/*": ["./src/utils/*"],
+      "~/*": ["./src/*"]
+    },
+    // "rootDirs": [],
+    // "typeRoots": [],
+    // "types": [],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // "preserveSymlinks": true,
+    "skipLibCheck": true
+
+    /* Source Map Options */
+    // "sourceRoot": "./",
+    // "mapRoot": "./",
+    // "inlineSourceMap": true,
+    // "inlineSources": true,
+
+    /* Experimental Options */
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+  },
+  "include": ["./src", "./__tests__"]
+}

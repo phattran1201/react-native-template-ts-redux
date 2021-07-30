@@ -1,0 +1,10 @@
+export const AUTH = 'auth';
+export const USER = 'user';
+export const FAVORITE = 'favorite';
+export const QUESTION = 'question';
+export const SETTING = 'setting';
+export const LESSON_TODAY = 'lesson_today';
+export const COURSE = 'course';
+export const LESSON = 'lesson';
+export const CONFIG = 'config';
+export const DIAGNOSE = 'diagnosis';
